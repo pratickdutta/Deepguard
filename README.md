@@ -11,7 +11,10 @@
 
 ## 🌟 Key Features
 
-- **High-Accuracy Detection**: Leverages advanced ML models via Replicate API (bcmi/fake-image-detection, etc.).
+- **High-Accuracy Detection**: Leverages advanced ML models via Replicate API.
+- **Multiple AI Models**: Support for specialized detection models:
+  - `bcmi/fake-image-detection`: General purpose synthetic image detection.
+  - `wzhouwzhou/deepfake-detection`: Specialized in facial manipulation detection.
 - **Real-Time Analysis**: Instant scanning of images and URLs with detailed confidence scores.
 - **Secure Authentication**: Integrated with Firebase Auth for personalized scan history and profile management.
 - **Interactive UI**: Built with modern components (Radix UI, Vaul, Embla) for a premium user experience.
